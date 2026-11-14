@@ -1,0 +1,110 @@
+{
+  "split": "dev",
+  "started_at": "2026-11-14T11:52:39+07:00",
+  "finished_at": "2026-11-14T11:54:09+07:00",
+  "parameters": {
+    "A": {
+      "size": 500,
+      "overlap": 50
+    },
+    "B": {
+      "max_size": 1000
+    },
+    "C": "B rows + year filter",
+    "top_k": 3
+  },
+  "chunk_counts": {
+    "A": 1797,
+    "B": 1264
+  },
+  "chunking_seconds": 1.2,
+  "ingest": {
+    "A": {
+      "sync": {
+        "inserted": 1797,
+        "updated": 0,
+        "unchanged": 0,
+        "deleted": 0,
+        "rows_after": 1797
+      },
+      "sync_seconds": 35.69,
+      "embed_seconds": 34.51,
+      "reload": {
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1797,
+        "deleted": 0,
+        "rows_after": 1797
+      },
+      "reload_seconds": 0.04,
+      "reload_wrote_nothing": true
+    },
+    "B": {
+      "sync": {
+        "inserted": 1264,
+        "updated": 0,
+        "unchanged": 0,
+        "deleted": 0,
+        "rows_after": 1264
+      },
+      "sync_seconds": 35.21,
+      "embed_seconds": 34.07,
+      "reload": {
+        "inserted": 0,
+        "updated": 0,
+        "unchanged": 1264,
+        "deleted": 0,
+        "rows_after": 1264
+      },
+      "reload_seconds": 0.05,
+      "reload_wrote_nothing": true
+    }
+  },
+  "change_check": {
+    "initial": {
+      "inserted": 5,
+      "updated": 0,
+      "unchanged": 0,
+      "deleted": 0,
+      "rows_after": 5
+    },
+    "same_again": {
+      "inserted": 0,
+      "updated": 0,
+      "unchanged": 5,
+      "deleted": 0,
+      "rows_after": 5
+    },
+    "one_edited_one_removed": {
+      "inserted": 0,
+      "updated": 1,
+      "unchanged": 3,
+      "deleted": 1,
+      "rows_after": 4
+    }
+  },
+  "query_latency": {
+    "query_embed_ms_median": 22.3,
+    "search_ms_median": 35.8
+  },
+  "environment": {
+    "python": "3.12.1",
+    "os": "Windows-11-10.0.26320-SP0",
+    "torch": "2.15.0+cu132",
+    "sentence_transformers": "6.2.0",
+    "transformers": "5.22.2",
+    "psycopg": "3.3.8",
+    "pymupdf": "2.1",
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7",
+    "device": "cuda:0",
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "embedding_model": "intfloat/multilingual-e5-base",
+    "model_revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+    "dimensions": 768,
+    "max_tokens": 512,
+    "metric": "cosine (pgvector <=>), exact search, no ANN index",
+    "cost_usd": 0,
+    "cost_note": "local model and local database; electricity not measured"
+  }
+}

@@ -13,7 +13,7 @@ Each question has the fields from [BENCHMARK.md](../BENCHMARK.md): `id`, `split`
 ## Question mix
 
 | Type | Count | What it tests |
-|---|---:|---|
+| --- | ---: | --- |
 | `truc_tiep` (direct) | 9 | The question uses the law's own wording. |
 | `dien_dat_lai` (paraphrase) | 5 | Everyday wording, for example "sổ đỏ" for Giấy chứng nhận or a Cần Thơ farmer for the đồng bằng sông Cửu Long limit. |
 | `dieu_kien_ngoai_le` (condition or exception) | 6 | The answer depends on a condition, such as the administrative fine required before non-use leads to recovery in 2024. |
@@ -34,7 +34,7 @@ Configuration C applies the filter only to these ten questions and runs the othe
 15 dev and 5 test, fixed in this file before the first retrieval run.
 
 | Split | Questions | Filtered |
-|---|---|---:|
+| --- | --- | ---: |
 | dev | q01, q02, q05, q06, q07, q08, q10, q11, q13, q14, q15, q16, q17, q19, q20 | 8 |
 | test | q03, q04, q09, q12, q18 | 2 |
 
@@ -61,6 +61,10 @@ The configuration used on test is chosen on dev only, in this order:
 4. Then fewer chunks and lower ingest time.
 
 Test is run once for each configuration after the choice is fixed, and no test result is used to change chunking, filtering, the model or the questions.
+
+**Amendment, added after the dev run and before any test run (2026-11-14 11:57):** B and C tied at steps 1 and 2 (dev Hit@3 14 against 15, Hit@1 12 against 13), and steps 3 and 4 cannot separate them because C searches B's chunks.
+A fifth step was added: among configurations that share chunks, prefer the one whose top-3 more often stays in the law version the question asks about, on the dev filtered questions (C 8/8, B 3/8).
+C was chosen by this step; the record is [results/selection.json](../results/selection.json).
 
 ## Limits
 

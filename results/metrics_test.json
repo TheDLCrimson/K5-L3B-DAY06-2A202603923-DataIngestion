@@ -1,0 +1,112 @@
+{
+  "A": {
+    "test": {
+      "hit_at_1": {
+        "n": 1,
+        "N": 5,
+        "text": "1/5",
+        "rate": 0.2
+      },
+      "evidence_hit_at_3": {
+        "n": 4,
+        "N": 5,
+        "text": "4/5",
+        "rate": 0.8
+      },
+      "filtered_questions_hit_at_3": {
+        "n": 2,
+        "N": 2,
+        "text": "2/2",
+        "rate": 1.0
+      },
+      "unfiltered_questions_hit_at_3": {
+        "n": 2,
+        "N": 3,
+        "text": "2/3",
+        "rate": 0.667
+      },
+      "filter_compliance": "N/A: no filter applied",
+      "filtered_questions_top3_all_in_asked_version": {
+        "n": 0,
+        "N": 2,
+        "text": "0/2",
+        "rate": 0.0
+      }
+    }
+  },
+  "B": {
+    "test": {
+      "hit_at_1": {
+        "n": 3,
+        "N": 5,
+        "text": "3/5",
+        "rate": 0.6
+      },
+      "evidence_hit_at_3": {
+        "n": 4,
+        "N": 5,
+        "text": "4/5",
+        "rate": 0.8
+      },
+      "filtered_questions_hit_at_3": {
+        "n": 2,
+        "N": 2,
+        "text": "2/2",
+        "rate": 1.0
+      },
+      "unfiltered_questions_hit_at_3": {
+        "n": 2,
+        "N": 3,
+        "text": "2/3",
+        "rate": 0.667
+      },
+      "filter_compliance": "N/A: no filter applied",
+      "filtered_questions_top3_all_in_asked_version": {
+        "n": 0,
+        "N": 2,
+        "text": "0/2",
+        "rate": 0.0
+      }
+    }
+  },
+  "C": {
+    "test": {
+      "hit_at_1": {
+        "n": 4,
+        "N": 5,
+        "text": "4/5",
+        "rate": 0.8
+      },
+      "evidence_hit_at_3": {
+        "n": 4,
+        "N": 5,
+        "text": "4/5",
+        "rate": 0.8
+      },
+      "filtered_questions_hit_at_3": {
+        "n": 2,
+        "N": 2,
+        "text": "2/2",
+        "rate": 1.0
+      },
+      "unfiltered_questions_hit_at_3": {
+        "n": 2,
+        "N": 3,
+        "text": "2/3",
+        "rate": 0.667
+      },
+      "filter_compliance": {
+        "n": 2,
+        "N": 2,
+        "text": "2/2",
+        "rate": 1.0
+      },
+      "filtered_questions_top3_all_in_asked_version": {
+        "n": 2,
+        "N": 2,
+        "text": "2/2",
+        "rate": 1.0
+      }
+    }
+  }
+}

@@ -4,3 +4,5 @@ pypdf>=5,<7
 python-dotenv>=1,<2
 # PDF text extraction actually used by src/ingestion.py (pypdf splits Vietnamese syllables on these files)
 pymupdf>=1.26
+# Local embedding model intfloat/multilingual-e5-base (src/embeddings.py); install torch for your CPU/GPU first
+sentence-transformers>=3.0,<7

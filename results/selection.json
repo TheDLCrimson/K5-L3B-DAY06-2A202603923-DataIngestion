@@ -1,0 +1,31 @@
+{
+  "rule": "1) dev Evidence Hit@3, 2) dev Hit@1 (ties = within 1/15), 3) mean coherence, 4) fewer chunks and lower ingest time",
+  "dev_hit_at_3": {
+    "A": 11,
+    "B": 14,
+    "C": 15
+  },
+  "dev_hit_at_1": {
+    "A": 8,
+    "B": 12,
+    "C": 13
+  },
+  "decided_at": "2026-11-14T11:54:09+07:00",
+  "chosen": "C",
+  "tied_after_step_2": [
+    "B",
+    "C"
+  ],
+  "steps_3_4_note": "B and C share the same chunks, so mean coherence, chunk count and ingest time are identical by construction; steps 3 and 4 cannot separate them.",
+  "amendment": {
+    "added_at": "2026-11-14T11:57:53+07:00",
+    "when": "after the dev run, before any test run",
+    "step_5": "Among configurations that share chunks, prefer the one whose top-3 more often stays in the law version the question asks about (dev filtered questions).",
+    "dev_filtered_top3_all_in_asked_version": {
+      "A": "3/8",
+      "B": "3/8",
+      "C": "8/8"
+    }
+  },
+  "decided_by_step": 5
+}
