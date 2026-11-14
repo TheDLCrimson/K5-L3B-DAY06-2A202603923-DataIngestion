@@ -1,0 +1,260 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo Luật Đất đai 2013, hộ gia đình, cá nhân được nhận chuyển quyền sử dụng đất nông nghiệp tối đa bao nhiêu lần hạn mức giao đất?",
+    "expected_answer": "Không quá 10 lần hạn mức giao đất nông nghiệp, đối với mỗi loại đất (Điều 130 khoản 1).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 71,
+    "evidence_quote": "Hạn mức nhận chuyển quyền sử dụng đất nông nghiệp của hộ gia đình, cá nhân không quá 10 lần hạn mức giao đất nông nghiệp",
+    "alternative_gold": [],
+    "filter": {"year": 2013}
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Luật Đất đai 2024 cho phép một cá nhân gom bao nhiêu đất nông nghiệp qua nhận chuyển nhượng, tặng cho, tính theo bội số của hạn mức được Nhà nước giao?",
+    "expected_answer": "Không quá 15 lần hạn mức giao đất nông nghiệp của cá nhân, đối với mỗi loại đất (Điều 177 khoản 1).",
+    "gold_source_id": "ldd2024_cb367",
+    "gold_page": 5,
+    "evidence_quote": "Hạn mức nhận chuyển quyền sử dụng đất nông nghiệp của cá nhân không quá 15 lần hạn mức giao đất nông nghiệp của cá nhân",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "q03",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Theo Luật Đất đai 2013, Ủy ban nhân dân cấp xã phải hòa giải xong tranh chấp đất đai trong thời hạn bao lâu?",
+    "expected_answer": "Không quá 45 ngày, kể từ ngày nhận được đơn yêu cầu giải quyết tranh chấp đất đai (Điều 202 khoản 3).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 112,
+    "evidence_quote": "Thủ tục hòa giải tranh chấp đất đai tại Ủy ban nhân cấp xã được thực hiện trong thời hạn không quá 45 ngày, kể từ ngày nhận được đơn yêu cầu giải quyết tranh chấp đất đai",
+    "alternative_gold": [],
+    "filter": {"year": 2013}
+  },
+  {
+    "id": "q04",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Hai nhà hàng xóm tranh chấp ranh đất và nộp đơn lên xã nhờ hòa giải; theo Luật Đất đai 2024, xã có tối đa bao nhiêu ngày để hòa giải?",
+    "expected_answer": "Không quá 30 ngày kể từ ngày nhận được đơn yêu cầu hòa giải tranh chấp đất đai (Điều 235 khoản 2 điểm c).",
+    "gold_source_id": "ldd2024_cb367",
+    "gold_page": 46,
+    "evidence_quote": "Việc hòa giải tranh chấp đất đai tại Ủy ban nhân dân cấp xã được thực hiện trong thời hạn không quá 30 ngày kể từ ngày nhận được đơn yêu cầu hòa giải tranh chấp đất đai",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo Luật Đất đai 2013, cá nhân không trực tiếp sản xuất nông nghiệp có được nhận chuyển nhượng đất trồng lúa không?",
+    "expected_answer": "Không. Hộ gia đình, cá nhân không trực tiếp sản xuất nông nghiệp không được nhận chuyển nhượng, nhận tặng cho quyền sử dụng đất trồng lúa (Điều 191 khoản 3).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 107,
+    "evidence_quote": "Hộ gia đình, cá nhân không trực tiếp sản xuất nông nghiệp không được nhận chuyển nhượng, nhận tặng cho quyền sử dụng đất trồng lúa.",
+    "alternative_gold": [],
+    "filter": {"year": 2013}
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Theo Luật Đất đai 2024, một nhân viên văn phòng muốn nhận chuyển nhượng đất trồng lúa vượt hạn mức thì phải đáp ứng điều kiện gì?",
+    "expected_answer": "Phải thành lập tổ chức kinh tế và có phương án sử dụng đất trồng lúa được Ủy ban nhân dân cấp huyện phê duyệt; ngoại lệ: người nhận tặng cho thuộc hàng thừa kế (Điều 45 khoản 7).",
+    "gold_source_id": "ldd2024_cb363",
+    "gold_page": 42,
+    "evidence_quote": "Cá nhân không trực tiếp sản xuất nông nghiệp nhận chuyển nhượng, nhận tặng cho quyền sử dụng đất trồng lúa quá hạn mức quy định tại Điều 176 của Luật này thì phải thành lập tổ chức kinh tế và có phương án sử dụng đất trồng lúa",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Trước khi ra quyết định thu hồi đất nông nghiệp, cơ quan nhà nước phải báo cho người đang sử dụng đất trước ít nhất bao lâu?",
+    "expected_answer": "Chậm nhất 90 ngày đối với đất nông nghiệp (180 ngày đối với đất phi nông nghiệp); giống nhau ở Luật 2013 (Điều 67 khoản 1) và Luật 2024 (Điều 85 khoản 1).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 34,
+    "evidence_quote": "chậm nhất là 90 ngày đối với đất nông nghiệp và 180 ngày đối với đất phi nông nghiệp",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb363", "page": 81, "evidence_quote": "chậm nhất là 90 ngày đối với đất nông nghiệp và 180 ngày đối với đất phi nông nghiệp"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Theo Luật Đất đai 2024, ruộng trồng cây hằng năm bị bỏ không 12 tháng liên tục thì Nhà nước có thu hồi ngay không?",
+    "expected_answer": "Không ngay: chỉ thu hồi khi đất không được sử dụng 12 tháng liên tục và đã bị xử phạt vi phạm hành chính mà vẫn không đưa đất vào sử dụng theo thời hạn ghi trong quyết định xử phạt (Điều 81 khoản 7).",
+    "gold_source_id": "ldd2024_cb363",
+    "gold_page": 77,
+    "evidence_quote": "Đất trồng cây hằng năm, đất nuôi trồng thủy sản không được sử dụng trong thời gian 12 tháng liên tục, đất trồng cây lâu năm không được sử dụng trong thời gian 18 tháng liên tục, đất trồng rừng không được sử dụng trong thời gian 24 tháng liên tục và đã bị xử phạt vi phạm hành chính mà không đưa đất vào sử dụng",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "q09",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Khi nhận thừa kế quyền sử dụng đất, thời hạn phải đăng ký biến động được tính từ thời điểm nào?",
+    "expected_answer": "Thời hạn 30 ngày được tính từ ngày phân chia xong quyền sử dụng đất là di sản thừa kế (Luật 2013 Điều 95 khoản 6; Luật 2024 Điều 133 khoản 3 bổ sung: hoặc từ ngày bản án, quyết định của Tòa án có hiệu lực pháp luật).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 51,
+    "evidence_quote": "trường hợp thừa kế quyền sử dụng đất thì thời hạn đăng ký biến động được tính từ ngày phân chia xong quyền sử dụng đất là di sản thừa kế",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb365", "page": 42, "evidence_quote": "trường hợp thừa kế quyền sử dụng đất thì thời hạn đăng ký biến động được tính từ ngày phân chia xong quyền sử dụng đất là di sản thừa kế"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Một hộ nông dân ở đồng bằng sông Cửu Long được Nhà nước giao tối đa bao nhiêu đất trồng cây hằng năm?",
+    "expected_answer": "Không quá 03 ha cho mỗi loại đất (Luật 2013 Điều 129 khoản 1 điểm a; Luật 2024 Điều 176 khoản 1 điểm a).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 70,
+    "evidence_quote": "Không quá 03 héc ta cho mỗi loại đất đối với tỉnh, thành phố trực thuộc Trung ương thuộc khu vực Đông Nam Bộ và khu vực đồng bằng sông Cửu Long",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb367", "page": 4, "evidence_quote": "Không quá 03 ha cho mỗi loại đất đối với tỉnh, thành phố trực thuộc Trung ương thuộc khu vực Đông Nam Bộ và khu vực đồng bằng sông Cửu Long"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Kiểm kê đất đai được thực hiện bao lâu một lần?",
+    "expected_answer": "05 năm một lần (Luật 2013 Điều 34 khoản 2 điểm c; Luật 2024 Điều 57 khoản 2 điểm b).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 14,
+    "evidence_quote": "Việc kiểm kê đất đai được tiến hành 05 năm một lần",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb363", "page": 51, "evidence_quote": "Kiểm kê đất đai được thực hiện 05 năm một lần"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Ba anh em cùng đứng tên chung một thửa đất thì được cấp sổ đỏ như thế nào?",
+    "expected_answer": "Cấp cho mỗi người 01 Giấy chứng nhận (ghi đủ tên những người có chung quyền); nếu họ có yêu cầu thì cấp chung 01 Giấy chứng nhận (Luật 2013 Điều 98 khoản 2; Luật 2024 Điều 135 khoản 2).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 52,
+    "evidence_quote": "ghi đầy đủ tên của những người có chung quyền sử dụng đất, người sở hữu chung nhà ở, tài sản khác gắn liền với đất và cấp cho mỗi người 01 Giấy chứng nhận",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb365", "page": 43, "evidence_quote": "Thửa đất có nhiều người chung quyền sử dụng đất, nhiều người sở hữu chung tài sản gắn liền với đất thì cấp cho mỗi người 01 Giấy chứng nhận"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Chủ đầu tư được giao đất làm dự án nhưng chậm đưa đất vào sử dụng thì được gia hạn tối đa bao lâu trước khi bị thu hồi?",
+    "expected_answer": "Được gia hạn 24 tháng (Luật 2024: không quá 24 tháng) và phải nộp khoản tiền tương ứng; hết thời hạn gia hạn mà chưa sử dụng thì bị thu hồi không bồi thường về đất (Luật 2013 Điều 64 khoản 1 điểm i; Luật 2024 Điều 81 khoản 8).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 32,
+    "evidence_quote": "chủ đầu tư được gia hạn sử dụng 24 tháng",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb363", "page": 77, "evidence_quote": "chủ đầu tư được gia hạn sử dụng không quá 24 tháng"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thửa đất được định nghĩa như thế nào?",
+    "expected_answer": "Phần diện tích đất được giới hạn bởi ranh giới xác định trên thực địa hoặc được mô tả trên hồ sơ (Luật 2013 Điều 3 khoản 1; Luật 2024 Điều 3 khoản 42).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 1,
+    "evidence_quote": "Thửa đất là phần diện tích đất được giới hạn bởi ranh giới xác định trên thực địa hoặc được mô tả trên hồ sơ.",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb363", "page": 6, "evidence_quote": "Thửa đất là phần diện tích đất được giới hạn bởi ranh giới mô tả trên hồ sơ địa chính hoặc được xác định trên thực địa."}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Kế hoạch sử dụng đất cấp tỉnh được lập cho thời kỳ bao nhiêu năm?",
+    "expected_answer": "05 năm (Luật 2013 Điều 37 khoản 2; Luật 2024 Điều 62 khoản 4).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 15,
+    "evidence_quote": "Kỳ kế hoạch sử dụng đất cấp quốc gia, cấp tỉnh và kỳ kế hoạch sử dụng đất quốc phòng, đất an ninh là 05 năm",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb363", "page": 55, "evidence_quote": "Thời kỳ kế hoạch sử dụng đất quốc gia, kế hoạch sử dụng đất cấp tỉnh là 05 năm"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo Luật Đất đai 2024, bảng giá đất lần đầu được áp dụng từ ngày nào, và sau đó được điều chỉnh với chu kỳ ra sao?",
+    "expected_answer": "Áp dụng từ ngày 01 tháng 01 năm 2026; sau đó điều chỉnh hằng năm, áp dụng từ ngày 01 tháng 01 của năm tiếp theo (Điều 159 khoản 3).",
+    "gold_source_id": "ldd2024_cb365",
+    "gold_page": 85,
+    "evidence_quote": "quyết định bảng giá đất lần đầu để công bố và áp dụng từ ngày 01 tháng 01 năm 2026. Hằng năm, Ủy ban nhân dân cấp tỉnh có trách nhiệm trình Hội đồng nhân dân cấp tỉnh quyết định điều chỉnh",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Luật Đất đai 2024 có điều khoản nào được áp dụng sớm hơn ngày hiệu lực chung không, và từ ngày nào?",
+    "expected_answer": "Có: Điều 190 và Điều 248 có hiệu lực từ ngày 01 tháng 4 năm 2024, trong khi Luật có hiệu lực chung từ ngày 01 tháng 01 năm 2025 (Điều 252 khoản 1, 2).",
+    "gold_source_id": "ldd2024_cb367",
+    "gold_page": 57,
+    "evidence_quote": "Điều 190 và Điều 248 của Luật này có hiệu lực thi hành từ ngày 01 tháng 4 năm 2024",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Dự án đầu tư cần thời hạn sử dụng đất dài hơn 50 năm thì được giao, cho thuê đất tối đa bao nhiêu năm?",
+    "expected_answer": "Không quá 70 năm (Luật 2013 Điều 126 khoản 3: dự án vốn lớn, thu hồi vốn chậm hoặc ở địa bàn khó khăn; Luật 2024 Điều 172 khoản 1 điểm c: dự án có thời hạn hoạt động trên 50 năm theo Luật Đầu tư).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 68,
+    "evidence_quote": "mà cần thời hạn dài hơn thì thời hạn giao đất, cho thuê đất không quá 70 năm",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb367", "page": 2, "evidence_quote": "Đối với các dự án có thời hạn hoạt động trên 50 năm theo quy định của Luật Đầu tư thì thời hạn giao đất, cho thuê đất theo thời hạn của dự án nhưng không quá 70 năm"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Luật Đất đai 2013 bắt đầu có hiệu lực từ ngày nào?",
+    "expected_answer": "Từ ngày 01 tháng 7 năm 2014 (Điều 211 khoản 1).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 116,
+    "evidence_quote": "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2014",
+    "alternative_gold": [],
+    "filter": {"year": 2013}
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thửa đất chuẩn dùng để làm gì trong định giá đất?",
+    "expected_answer": "Là thửa đất mang tính đại diện về diện tích, hình thể, kích thước trong vùng giá trị, được chọn làm chuẩn để định giá cho các thửa đất khác trong vùng giá trị (Luật 2024 Điều 3 khoản 43).",
+    "gold_source_id": "ldd2024_cb363",
+    "gold_page": 6,
+    "evidence_quote": "được chọn làm thửa đất chuẩn để định giá cho các thửa đất khác trong vùng giá trị",
+    "alternative_gold": [],
+    "filter": null
+  }
+]

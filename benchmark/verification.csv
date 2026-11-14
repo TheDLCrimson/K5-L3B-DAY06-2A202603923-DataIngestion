@@ -1,0 +1,30 @@
+id,split,type,filter,source_id,page,quote_chars,found_on_page,located_at
+q01,dev,truc_tiep,"{""year"": 2013}",ldd2013,71,120,True,Điều 130 khoản 1
+q02,dev,dien_dat_lai,"{""year"": 2024}",ldd2024_cb367,5,119,True,Điều 177 khoản 1
+q03,test,truc_tiep,"{""year"": 2013}",ldd2013,112,170,True,Điều 202 khoản 3
+q04,test,dien_dat_lai,"{""year"": 2024}",ldd2024_cb367,46,168,True,Điều 235
+q05,dev,truc_tiep,"{""year"": 2013}",ldd2013,107,131,True,Điều 191 khoản 3
+q06,dev,dieu_kien_ngoai_le,"{""year"": 2024}",ldd2024_cb363,42,226,True,Điều 45 khoản 7
+q07,dev,dien_dat_lai,null,ldd2013,34,84,True,Điều 67 khoản 1
+q07,dev,dien_dat_lai,null,ldd2024_cb363,81,84,True,Điều 85 khoản 1
+q08,dev,dieu_kien_ngoai_le,"{""year"": 2024}",ldd2024_cb363,77,310,True,Điều 81 khoản 7
+q09,test,dieu_kien_ngoai_le,null,ldd2013,51,136,True,Điều 95 khoản 6
+q09,test,dieu_kien_ngoai_le,null,ldd2024_cb365,42,136,True,Điều 133 khoản 3
+q10,dev,dien_dat_lai,null,ldd2013,70,143,True,Điều 129 khoản 1
+q10,dev,dien_dat_lai,null,ldd2024_cb367,4,139,True,Điều 176 khoản 1
+q11,dev,truc_tiep,null,ldd2013,14,50,True,Điều 34 khoản 2
+q11,dev,truc_tiep,null,ldd2024_cb363,51,45,True,Điều 57 khoản 2
+q12,test,dien_dat_lai,null,ldd2013,52,154,True,Điều 98 khoản 2
+q12,test,dien_dat_lai,null,ldd2024_cb365,43,139,True,Điều 135 khoản 2
+q13,dev,dieu_kien_ngoai_le,null,ldd2013,32,40,True,Điều 64 khoản 1
+q13,dev,dieu_kien_ngoai_le,null,ldd2024_cb363,77,50,True,Điều 81 khoản 8
+q14,dev,truc_tiep,null,ldd2013,1,109,True,Điều 3 khoản 1
+q14,dev,truc_tiep,null,ldd2024_cb363,6,119,True,Điều 3 khoản 42
+q15,dev,truc_tiep,null,ldd2013,15,107,True,Điều 37 khoản 2
+q15,dev,truc_tiep,null,ldd2024_cb363,55,78,True,Điều 62 khoản 4
+q16,dev,truc_tiep,"{""year"": 2024}",ldd2024_cb365,85,188,True,Điều 159 khoản 3
+q17,dev,dieu_kien_ngoai_le,"{""year"": 2024}",ldd2024_cb367,57,82,True,Điều 252 khoản 2
+q18,test,dieu_kien_ngoai_le,null,ldd2013,68,76,True,Điều 126 khoản 3
+q18,test,dieu_kien_ngoai_le,null,ldd2024_cb367,2,164,True,Điều 172
+q19,dev,truc_tiep,"{""year"": 2013}",ldd2013,116,57,True,Điều 211 khoản 1
+q20,dev,truc_tiep,null,ldd2024_cb363,6,81,True,Điều 3 khoản 43
