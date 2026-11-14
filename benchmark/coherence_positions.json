@@ -1,0 +1,106 @@
+{
+  "seed": 20261114,
+  "rule": "Midpoint of 10 clause [khoản] lines sampled with the fixed seed from all clause lines; for each strategy, the first chunk whose span contains the midpoint is labelled.",
+  "positions": [
+    {
+      "position_id": "P01",
+      "document_id": "ldd2013",
+      "page": 12,
+      "article": 29,
+      "char_offset": 26087,
+      "clause_preview": "4. Tranh chấp địa giới hành chính giữa các đơn vị hành chính do Ủy ban nhân dân của các đơn vị hành ",
+      "chunk_A": "A-ldd2013-0057",
+      "chunk_B": "B-ldd2013-0045"
+    },
+    {
+      "position_id": "P02",
+      "document_id": "ldd2013",
+      "page": 33,
+      "article": 65,
+      "char_offset": 73839,
+      "clause_preview": "2. Việc thu hồi đất theo quy định tại khoản 1 Điều này phải dựa trên các căn cứ sau đây:",
+      "chunk_A": "A-ldd2013-0163",
+      "chunk_B": "B-ldd2013-0119"
+    },
+    {
+      "position_id": "P03",
+      "document_id": "ldd2013",
+      "page": 71,
+      "article": 130,
+      "char_offset": 170193,
+      "clause_preview": "1. Hạn mức nhận chuyển quyền sử dụng đất nông nghiệp của hộ gia đình, cá nhân không quá 10 lần hạn m",
+      "chunk_A": "A-ldd2013-0378",
+      "chunk_B": "B-ldd2013-0269"
+    },
+    {
+      "position_id": "P04",
+      "document_id": "ldd2024_cb363",
+      "page": 30,
+      "article": 35,
+      "char_offset": 55487,
+      "clause_preview": "4. Quyền và nghĩa vụ của tổ chức kinh tế sử dụng đất được cơ quan nhà nước có thẩm quyền cho phép ch",
+      "chunk_A": "A-ldd2024_cb363-0123",
+      "chunk_B": "B-ldd2024_cb363-0084"
+    },
+    {
+      "position_id": "P05",
+      "document_id": "ldd2024_cb363",
+      "page": 39,
+      "article": 44,
+      "char_offset": 73162,
+      "clause_preview": "3. Trường hợp tất cả người nhận thừa kế quyền sử dụng đất, quyền sở hữu nhà ở, tài sản khác gắn liền",
+      "chunk_A": "A-ldd2024_cb363-0162",
+      "chunk_B": "B-ldd2024_cb363-0111"
+    },
+    {
+      "position_id": "P06",
+      "document_id": "ldd2024_cb363",
+      "page": 44,
+      "article": 48,
+      "char_offset": 83974,
+      "clause_preview": "2. Cá nhân là người dân tộc thiểu số được Nhà nước giao đất, cho thuê đất theo quy định tại khoản 3 ",
+      "chunk_A": "A-ldd2024_cb363-0186",
+      "chunk_B": "B-ldd2024_cb363-0130"
+    },
+    {
+      "position_id": "P07",
+      "document_id": "ldd2024_cb363",
+      "page": 61,
+      "article": 69,
+      "char_offset": 114951,
+      "clause_preview": "2. Ủy ban nhân dân cấp tỉnh tổ chức lập quy hoạch, kế hoạch sử dụng đất cấp tỉnh. Cơ quan có chức nă",
+      "chunk_A": "A-ldd2024_cb363-0255",
+      "chunk_B": "B-ldd2024_cb363-0177"
+    },
+    {
+      "position_id": "P08",
+      "document_id": "ldd2024_cb363",
+      "page": 73,
+      "article": 79,
+      "char_offset": 137652,
+      "clause_preview": "12. Xây dựng trụ sở cơ quan Đảng Cộng sản Việt Nam, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam, tổ ",
+      "chunk_A": "A-ldd2024_cb363-0305",
+      "chunk_B": "B-ldd2024_cb363-0211"
+    },
+    {
+      "position_id": "P09",
+      "document_id": "ldd2024_cb365",
+      "page": 77,
+      "article": 153,
+      "char_offset": 152603,
+      "clause_preview": "3. Chính phủ quy định chi tiết các điểm a, b, c, d, đ khoản 1 và khoản 2 Điều này.",
+      "chunk_A": "A-ldd2024_cb365-0339",
+      "chunk_B": "B-ldd2024_cb365-0237"
+    },
+    {
+      "position_id": "P10",
+      "document_id": "ldd2024_cb367",
+      "page": 40,
+      "article": 229,
+      "char_offset": 94678,
+      "clause_preview": "2. Đơn vị, tổ chức thực hiện cuộc bán đấu giá quyền sử dụng đất có trách nhiệm thực hiện cuộc bán đấ",
+      "chunk_A": "A-ldd2024_cb367-0210",
+      "chunk_B": "B-ldd2024_cb367-0146"
+    }
+  ]
+}
