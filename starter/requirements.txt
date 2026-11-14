@@ -2,3 +2,5 @@
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+# PDF text extraction actually used by src/ingestion.py (pypdf splits Vietnamese syllables on these files)
+pymupdf>=1.26

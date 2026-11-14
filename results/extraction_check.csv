@@ -1,0 +1,9 @@
+document_id,extractor,version,tokens,stray_single_letters,per_1000_tokens
+ldd2013,pypdf,6.21.4,70552,4455,63.14
+ldd2013,pymupdf,2.1,64432,62,0.96
+ldd2024_cb363,pypdf,6.21.4,45230,3314,73.27
+ldd2024_cb363,pymupdf,2.1,40730,70,1.72
+ldd2024_cb365,pypdf,6.21.4,47413,3477,73.33
+ldd2024_cb365,pymupdf,2.1,42525,73,1.72
+ldd2024_cb367,pypdf,6.21.4,39465,2705,68.54
+ldd2024_cb367,pymupdf,2.1,35735,45,1.26
