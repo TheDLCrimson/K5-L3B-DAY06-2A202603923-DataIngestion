@@ -25,6 +25,11 @@ python -m src.chunking                     # chunk A và B -> results/chunks/, r
 python -m src.run --split dev              # embed, lưu pgvector, chạy A/B/C trên dev -> results/traces/, metrics_dev.json, selection.json
 python -m src.run --split test             # chỉ chạy khi results/selection.json đã có lựa chọn
 python -m src.audit                        # kiểm tra metadata, tổng hợp nhãn -> results/audit/
+
+# Mở rộng tùy chọn: hybrid dense + BM25 (cấu hình D)
+python -m src.benchmark --holdout          # kiểm chứng 10 câu holdout -> benchmark/holdout_verification.csv
+python -m src.hybrid --stage dev           # chọn cách fusion trên dev -> results/hybrid/selection.json
+python -m src.hybrid --stage eval          # so sánh C và D trên dev, test, holdout -> results/hybrid/
 ```
 
 | Nội dung | Đường dẫn |

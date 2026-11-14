@@ -107,8 +107,29 @@ Trên các câu có filter, tỷ lệ câu mà cả top-3 thuộc đúng phiên 
   - Thời gian đo một lần trên một máy (GTX 1650), không lặp lại; chi phí điện năng không đo.
 - **Nếu làm lại hoặc mở rộng, cải tiến gì?**
   - Thêm câu hỏi diễn đạt lại bằng ngôn ngữ đời thường và một tập test mới lớn hơn, vì đây là chỗ cả ba cấu hình yếu (q12).
-  - Thử hybrid dense + BM25 trên chunk B, chọn tham số trên dev, vì số liệu và thuật ngữ luật ("45 ngày", "hạn mức") hợp với tìm theo từ khóa.
   - Đưa số trang Công báo in vào metadata chunk để trích dẫn khớp với bản giấy, và thêm trường hiệu lực (`effective_from`, `effective_to`) để tự lọc phiên bản đang có hiệu lực khi người dùng không nêu năm.
+  - Phần mở rộng hybrid đã làm ở mục dưới; bước tiếp theo là xử lý các câu mà cả dense lẫn BM25 cùng trượt (chọn nhầm khoản lân cận), ví dụ bằng reranker cross-encoder trên top-20.
+
+## Mở rộng tùy chọn: hybrid retrieval
+
+- **Cấu hình D:** giữ nguyên chunk B và filter `year` của C; mỗi bên lấy 20 ứng viên: dense từ pgvector (cosine) và BM25 (`rank-bm25` 0.2.2, k1 = 1,5, b = 0,75 mặc định) trên cùng các chunk, cùng filter.
+  Token cho BM25 là âm tiết viết thường (NFC) cộng cặp âm tiết liền kề, vì từ tiếng Việt thường gồm nhiều âm tiết ("hòa giải", "hạn mức").
+- **Chọn tham số trên dev:** thử RRF (k = 60) và tổng có trọng số của điểm đã chuẩn hóa min-max với α ∈ {0,3; 0,5; 0,7}; quy tắc chọn (Hit@3, rồi Hit@1, hòa thì ưu tiên RRF rồi α lớn) được viết trong code trước lần chạy.
+  Kết quả dev: RRF 13/15 và 14/15, α = 0,7 là 14/15 và 15/15, α = 0,5 và 0,3 đều 14/15 và 14/15 (Hit@1 và Hit@3); chọn α = 0,7 ([results/hybrid/selection.json](../../results/hybrid/selection.json)).
+- **Tập holdout mới:** vì tập test đã chạy và đã đọc lỗi (q12), tôi viết thêm 10 câu (h01-h10) sau khi có kết quả chính và commit trước mọi lần chạy hybrid; 14/14 evidence đúng trang, không câu nào trùng điều luật với dev ([benchmark/holdout.json](../../benchmark/holdout.json)).
+
+| Tập | C Hit@1 | C Hit@3 | D Hit@1 | D Hit@3 |
+| --- | --- | --- | --- | --- |
+| dev (dùng để chọn α) | 13/15 | 15/15 | 14/15 | 15/15 |
+| test (đã xem trước, không độc lập) | 4/5 | 4/5 | 4/5 | 5/5 |
+| holdout (độc lập) | 4/10 | 7/10 | 6/10 | 7/10 |
+
+- **Thay đổi theo từng câu** ([results/hybrid/metrics.json](../../results/hybrid/metrics.json)): D tốt hơn ở 4 câu (dev q16, test q12, holdout h02 và h08, evidence lên hạng 1 hoặc vào top-3), và không có câu nào D xếp evidence thấp hơn C.
+  Trên holdout, lợi ích nằm ở Hit@1 (4/10 lên 6/10); Hit@3 không đổi.
+- **Trường hợp hybrid không cứu được:** h05, h06, h10 trượt ở cả C và D.
+  h05 lấy Điều 172 (đất có thời hạn) thay vì Điều 171 (ổn định lâu dài) ngay trước nó; h06 lấy đúng Điều 236 và 203 nhưng khoản khác; h10 (định nghĩa người sử dụng đất, Điều 4) thua các điều về cấp giấy chứng nhận (Điều 139-140).
+  Đây là lỗi chọn nhầm khoản lân cận về nghĩa, mà từ khóa không phân biệt được.
+- **Đánh đổi:** D thêm một chỉ mục BM25 trong bộ nhớ (xây lại mỗi lần chạy) và một tham số α; với 10 câu holdout, chênh lệch 2 câu ở Hit@1 vẫn nằm trong sai số của mẫu nhỏ, nên tôi giữ C là cấu hình chính đã chọn và báo cáo D như một thí nghiệm thêm.
 
 ## Sử dụng AI
 
@@ -121,4 +142,5 @@ Công cụ: Claude Code (Claude) trong VS Code, dùng xuyên suốt bài.
 | Soạn benchmark | Gợi ý 20 câu hỏi từ các khoản trong corpus kèm đoạn evidence | Script xác nhận 29/29 evidence đúng trang; tôi duyệt và commit bộ câu hỏi cùng cách chia dev/test trước lần chạy đầu |
 | Kiểm tra và nhãn | Gợi ý nhãn coherence và grounding kèm lý do, kiểm tra metadata tự động | Tôi đọc các chunk trong review sheet và xác nhận cả 35 nhãn |
 | Quyết định | Chỉ ra quy tắc chọn không tách được B và C | Tôi quyết định bổ sung bước 5 và chọn C, ghi lại trước khi chạy test |
+| Mở rộng hybrid | Đề xuất tập holdout mới, viết module BM25 và fusion | Tôi duyệt và commit holdout trước lần chạy hybrid; baseline C trong module tái hiện đúng kết quả dev chính (13/15, 15/15) |
 | Viết báo cáo | Soạn bản nháp báo cáo từ kết quả đã chạy | Đối chiếu mọi con số với file kết quả trong repo |

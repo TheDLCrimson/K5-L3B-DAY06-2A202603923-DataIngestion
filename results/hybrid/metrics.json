@@ -1,0 +1,117 @@
+{
+  "chosen": "weighted_a0.7",
+  "dev": {
+    "C": {
+      "n": 15,
+      "hit_at_1": 13,
+      "hit_at_3": 15
+    },
+    "D": {
+      "n": 15,
+      "hit_at_1": 14,
+      "hit_at_3": 15
+    }
+  },
+  "test_already_seen": {
+    "C": {
+      "n": 5,
+      "hit_at_1": 4,
+      "hit_at_3": 4
+    },
+    "D": {
+      "n": 5,
+      "hit_at_1": 4,
+      "hit_at_3": 5
+    }
+  },
+  "holdout": {
+    "C": {
+      "n": 10,
+      "hit_at_1": 4,
+      "hit_at_3": 7
+    },
+    "D": {
+      "n": 10,
+      "hit_at_1": 6,
+      "hit_at_3": 7
+    }
+  },
+  "changes": [
+    {
+      "set": "dev",
+      "id": "q16",
+      "filter": {
+        "year": 2024
+      },
+      "C_first_hit_rank": 2,
+      "D_first_hit_rank": 1,
+      "effect": "D better",
+      "C_top3": [
+        "B-ldd2024_cb367-0223",
+        "B-ldd2024_cb365-0260",
+        "B-ldd2024_cb367-0204"
+      ],
+      "D_top3": [
+        "B-ldd2024_cb365-0260",
+        "B-ldd2024_cb367-0223",
+        "B-ldd2024_cb367-0204"
+      ]
+    },
+    {
+      "set": "test_already_seen",
+      "id": "q12",
+      "filter": null,
+      "C_first_hit_rank": null,
+      "D_first_hit_rank": 2,
+      "effect": "D better",
+      "C_top3": [
+        "B-ldd2024_cb365-0127",
+        "B-ldd2024_cb363-0057",
+        "B-ldd2024_cb367-0222"
+      ],
+      "D_top3": [
+        "B-ldd2024_cb365-0127",
+        "B-ldd2013-0198",
+        "B-ldd2024_cb365-0122"
+      ]
+    },
+    {
+      "set": "holdout",
+      "id": "h02",
+      "filter": {
+        "year": 2013
+      },
+      "C_first_hit_rank": 2,
+      "D_first_hit_rank": 1,
+      "effect": "D better",
+      "C_top3": [
+        "B-ldd2013-0187",
+        "B-ldd2013-0152",
+        "B-ldd2013-0157"
+      ],
+      "D_top3": [
+        "B-ldd2013-0152",
+        "B-ldd2013-0187",
+        "B-ldd2013-0157"
+      ]
+    },
+    {
+      "set": "holdout",
+      "id": "h08",
+      "filter": null,
+      "C_first_hit_rank": 2,
+      "D_first_hit_rank": 1,
+      "effect": "D better",
+      "C_top3": [
+        "B-ldd2013-0193",
+        "B-ldd2013-0189",
+        "B-ldd2024_cb365-0113"
+      ],
+      "D_top3": [
+        "B-ldd2013-0189",
+        "B-ldd2024_cb365-0113",
+        "B-ldd2013-0193"
+      ]
+    }
+  ]
+}
