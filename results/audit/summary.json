@@ -22,7 +22,7 @@
       "count_1": 6,
       "count_2": 3,
       "mean_of_2": 1.2,
-      "unreviewed": 10
+      "unreviewed": 0
     },
     "B": {
       "n": 10,
@@ -30,7 +30,7 @@
       "count_1": 2,
       "count_2": 8,
       "mean_of_2": 1.8,
-      "unreviewed": 10
+      "unreviewed": 0
     },
     "C": "same chunks as B, so the same labels"
   },
@@ -41,7 +41,7 @@
       "count_1": 1,
       "count_2": 4,
       "mean_of_2": 1.8,
-      "unreviewed": 5
+      "unreviewed": 0
     },
     "B": {
       "n": 5,
@@ -49,7 +49,7 @@
       "count_1": 0,
       "count_2": 4,
       "mean_of_2": 1.6,
-      "unreviewed": 5
+      "unreviewed": 0
     },
     "C": {
       "n": 5,
@@ -57,7 +57,7 @@
       "count_1": 0,
       "count_2": 4,
       "mean_of_2": 1.6,
-      "unreviewed": 5
+      "unreviewed": 0
     }
   }
 }

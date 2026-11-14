@@ -1,21 +1,21 @@
 position_id,strategy,chunk_id,label,reason,reviewed_by_author
-P01,A,A-ldd2013-0057,1,"Clause 4's first sentence is whole, but the chunk opens mid-sentence of clause 3 and stops at 'hoặc việc g', so the authority list the clause leads into is lost; no article heading.",no
-P01,B,B-ldd2013-0045,2,"Article heading plus the whole of clause 4 with points a and b; reads on its own.",no
-P02,A,A-ldd2013-0163,0,"The window ends right after '2. Việc thu hồi đất theo quy định tại khoản 1 Điều này', so the clause at this position has no content at all.",no
-P02,B,B-ldd2013-0119,1,"Heading and clause 2 with points a-d are whole, but point đ continues in the next chunk, so the list of grounds is incomplete.",no
-P03,A,A-ldd2013-0378,1,"Starts mid-word ('yển quyền sử dụng đất...'), so the subject of clause 1 is truncated, and it ends cut inside Điều 131; the 10-times rule is still readable.",no
-P03,B,B-ldd2013-0269,2,"The whole of Điều 130 (heading, clauses 1 and 2).",no
-P04,A,A-ldd2024_cb363-0123,1,"Clause 4 and point a are whole, point b is cut at 'Trường hợp thuộc hình thứ'; no article heading.",no
-P04,B,B-ldd2024_cb363-0084,2,"Article heading plus clause 4 with both points; complete.",no
-P05,A,A-ldd2024_cb363-0162,1,"Clause 3 is cut at 'theo quy đị', before the rules it announces ('theo quy định sau đây').",no
-P05,B,B-ldd2024_cb363-0111,1,"Heading plus clause 3 and point a; point b continues in the next chunk, so the clause is split mid-list.",no
-P06,A,A-ldd2024_cb363-0186,2,"Clause 2 is a single complete sentence inside the window; fragments of clauses 1 and 3 at the edges.",no
-P06,B,B-ldd2024_cb363-0130,2,"Heading plus the whole of clause 2; the chunk opens with the tail of clause 1 (a forced split), which does not affect clause 2.",no
-P07,A,A-ldd2024_cb363-0255,2,"Clause 2 is whole; fragments of clauses 1 and 3 at the edges.",no
-P07,B,B-ldd2024_cb363-0177,2,"The whole of Điều 69.",no
-P08,A,A-ldd2024_cb363-0305,1,"Clause 12 is cut before its qualifying condition ('được Nhà nước giao nhiệm vụ, hỗ trợ kinh phí hoạt động thường xuyên'), which changes which organisations it covers.",no
-P08,B,B-ldd2024_cb363-0211,2,"Article heading plus clauses 10-12, all whole.",no
-P09,A,A-ldd2024_cb365-0339,1,"Clause 3 is whole but says 'khoản 1 và khoản 2 Điều này' with no article heading in the chunk, so 'Điều này' cannot be resolved from the chunk.",no
-P09,B,B-ldd2024_cb365-0237,2,"Heading Điều 153 plus clauses 2 and 3, so 'Điều này' resolves.",no
-P10,A,A-ldd2024_cb367-0210,2,"Clause 2 is a single complete sentence; the window also holds a fragment of clause 1 and the start of clause 3.",no
-P10,B,B-ldd2024_cb367-0146,2,"Heading plus point đ of clause 1 and the whole of clause 2.",no
+P01,A,A-ldd2013-0057,1,"Clause 4's first sentence is whole, but the chunk opens mid-sentence of clause 3 and stops at 'hoặc việc g', so the authority list the clause leads into is lost; no article heading.",yes
+P01,B,B-ldd2013-0045,2,"Article heading plus the whole of clause 4 with points a and b; reads on its own.",yes
+P02,A,A-ldd2013-0163,0,"The window ends right after '2. Việc thu hồi đất theo quy định tại khoản 1 Điều này', so the clause at this position has no content at all.",yes
+P02,B,B-ldd2013-0119,1,"Heading and clause 2 with points a-d are whole, but point đ continues in the next chunk, so the list of grounds is incomplete.",yes
+P03,A,A-ldd2013-0378,1,"Starts mid-word ('yển quyền sử dụng đất...'), so the subject of clause 1 is truncated, and it ends cut inside Điều 131; the 10-times rule is still readable.",yes
+P03,B,B-ldd2013-0269,2,"The whole of Điều 130 (heading, clauses 1 and 2).",yes
+P04,A,A-ldd2024_cb363-0123,1,"Clause 4 and point a are whole, point b is cut at 'Trường hợp thuộc hình thứ'; no article heading.",yes
+P04,B,B-ldd2024_cb363-0084,2,"Article heading plus clause 4 with both points; complete.",yes
+P05,A,A-ldd2024_cb363-0162,1,"Clause 3 is cut at 'theo quy đị', before the rules it announces ('theo quy định sau đây').",yes
+P05,B,B-ldd2024_cb363-0111,1,"Heading plus clause 3 and point a; point b continues in the next chunk, so the clause is split mid-list.",yes
+P06,A,A-ldd2024_cb363-0186,2,"Clause 2 is a single complete sentence inside the window; fragments of clauses 1 and 3 at the edges.",yes
+P06,B,B-ldd2024_cb363-0130,2,"Heading plus the whole of clause 2; the chunk opens with the tail of clause 1 (a forced split), which does not affect clause 2.",yes
+P07,A,A-ldd2024_cb363-0255,2,"Clause 2 is whole; fragments of clauses 1 and 3 at the edges.",yes
+P07,B,B-ldd2024_cb363-0177,2,"The whole of Điều 69.",yes
+P08,A,A-ldd2024_cb363-0305,1,"Clause 12 is cut before its qualifying condition ('được Nhà nước giao nhiệm vụ, hỗ trợ kinh phí hoạt động thường xuyên'), which changes which organisations it covers.",yes
+P08,B,B-ldd2024_cb363-0211,2,"Article heading plus clauses 10-12, all whole.",yes
+P09,A,A-ldd2024_cb365-0339,1,"Clause 3 is whole but says 'khoản 1 và khoản 2 Điều này' with no article heading in the chunk, so 'Điều này' cannot be resolved from the chunk.",yes
+P09,B,B-ldd2024_cb365-0237,2,"Heading Điều 153 plus clauses 2 and 3, so 'Điều này' resolves.",yes
+P10,A,A-ldd2024_cb367-0210,2,"Clause 2 is a single complete sentence; the window also holds a fragment of clause 1 and the start of clause 3.",yes
+P10,B,B-ldd2024_cb367-0146,2,"Heading plus point đ of clause 1 and the whole of clause 2.",yes

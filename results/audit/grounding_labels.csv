@@ -1,16 +1,16 @@
 id,strategy,label,reason,reviewed_by_author
-q03,A,2,"Rank 1 holds the whole 45-day sentence of Điều 202 (2013) with source and page; rank 2 is the conflicting 2024 rule (30 days), which only the year metadata separates.",no
-q04,A,2,"Rank 2 holds the whole 30-day point c of Điều 235 (2024); rank 1 is the 2013 45-day rule, a version distractor.",no
-q09,A,2,"Ranks 1 and 2 together give the 2013 rule (30 days, counted from the division of the estate), split across two windows; rank 3 gives the 2024 inheritance clause in full.",no
-q12,A,1,"Rank 1 says the certificate must list every co-owner but is cut before 'cấp cho mỗi người 01 Giấy chứng nhận'; rank 2 is cut right after '2. Thửa đất có nhiều người chung quyền sử'. The core rule is missing.",no
-q18,A,2,"Rank 2 holds the 2013 70-year rule with its conditions; ranks 1 and 3 together hold the 2024 rule (rank 1 stops at 'nhưng không quá', rank 3 continues '70 năm').",no
-q03,B,2,"Rank 2 is the whole of Điều 202 (2013) with the 45-day rule; rank 1 is the 2024 30-day point, a version distractor ranked higher.",no
-q04,B,2,"Rank 1 is point c of Điều 235 (2024) with the 30-day rule and the article heading.",no
-q09,B,2,"Rank 1 is the whole of Điều 133 clause 3 (2024) and rank 2 the whole of Điều 95 clause 6 (2013); both state the start point.",no
-q12,B,0,"All three hits are about household certificates (Điều 135 clause 5, Điều 256 clause 4) or group users exercising rights (Điều 27); none states that each co-owner gets one certificate.",no
-q18,B,2,"Rank 1 is the 2024 rule (over 50 years under the Investment Law, max 70) and rank 2 the 2013 rule with its conditions.",no
-q03,C,2,"With year = 2013, rank 1 is the whole of Điều 202 with the 45-day rule; no 2024 distractor.",no
-q04,C,2,"With year = 2024, rank 1 is point c of Điều 235 with the 30-day rule.",no
-q09,C,2,"No filter; same hits as B.",no
-q12,C,0,"No filter; same hits as B, none states the per-co-owner certificate rule.",no
-q18,C,2,"No filter; same hits as B.",no
+q03,A,2,"Rank 1 holds the whole 45-day sentence of Điều 202 (2013) with source and page; rank 2 is the conflicting 2024 rule (30 days), which only the year metadata separates.",yes
+q04,A,2,"Rank 2 holds the whole 30-day point c of Điều 235 (2024); rank 1 is the 2013 45-day rule, a version distractor.",yes
+q09,A,2,"Ranks 1 and 2 together give the 2013 rule (30 days, counted from the division of the estate), split across two windows; rank 3 gives the 2024 inheritance clause in full.",yes
+q12,A,1,"Rank 1 says the certificate must list every co-owner but is cut before 'cấp cho mỗi người 01 Giấy chứng nhận'; rank 2 is cut right after '2. Thửa đất có nhiều người chung quyền sử'. The core rule is missing.",yes
+q18,A,2,"Rank 2 holds the 2013 70-year rule with its conditions; ranks 1 and 3 together hold the 2024 rule (rank 1 stops at 'nhưng không quá', rank 3 continues '70 năm').",yes
+q03,B,2,"Rank 2 is the whole of Điều 202 (2013) with the 45-day rule; rank 1 is the 2024 30-day point, a version distractor ranked higher.",yes
+q04,B,2,"Rank 1 is point c of Điều 235 (2024) with the 30-day rule and the article heading.",yes
+q09,B,2,"Rank 1 is the whole of Điều 133 clause 3 (2024) and rank 2 the whole of Điều 95 clause 6 (2013); both state the start point.",yes
+q12,B,0,"All three hits are about household certificates (Điều 135 clause 5, Điều 256 clause 4) or group users exercising rights (Điều 27); none states that each co-owner gets one certificate.",yes
+q18,B,2,"Rank 1 is the 2024 rule (over 50 years under the Investment Law, max 70) and rank 2 the 2013 rule with its conditions.",yes
+q03,C,2,"With year = 2013, rank 1 is the whole of Điều 202 with the 45-day rule; no 2024 distractor.",yes
+q04,C,2,"With year = 2024, rank 1 is point c of Điều 235 with the 30-day rule.",yes
+q09,C,2,"No filter; same hits as B.",yes
+q12,C,0,"No filter; same hits as B, none states the per-co-owner certificate rule.",yes
+q18,C,2,"No filter; same hits as B.",yes

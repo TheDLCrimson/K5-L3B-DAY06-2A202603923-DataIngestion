@@ -156,7 +156,7 @@ def main() -> None:
             sys.exit("No configuration chosen on dev yet (results/selection.json); refusing to run test.")
 
     load_dotenv(Path(__file__).resolve().parents[1] / ".env")
-    if os.getenv("EMBEDDING_MODEL", MODEL_NAME) != MODEL_NAME:
+    if (os.getenv("EMBEDDING_MODEL") or MODEL_NAME) != MODEL_NAME:
         sys.exit(f"EMBEDDING_MODEL must be {MODEL_NAME}: all strategies share one model")
     database_url = os.environ["DATABASE_URL"]
 
