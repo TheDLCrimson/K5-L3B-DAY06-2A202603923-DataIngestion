@@ -1,0 +1,15 @@
+id,split,type,filter,source_id,page,quote_chars,found_on_page,located_at
+h01,holdout,truc_tiep,"{""year"": 2013}",ldd2013,61,93,True,Điều 113
+h02,holdout,dieu_kien_ngoai_le,"{""year"": 2013}",ldd2013,41,177,True,Điều 74 khoản 2
+h03,holdout,dien_dat_lai,"{""year"": 2024}",ldd2024_cb365,1,222,True,Điều 91 khoản 2
+h04,holdout,dieu_kien_ngoai_le,"{""year"": 2024}",ldd2024_cb363,92,127,True,Điều 90 khoản 4
+h05,holdout,dien_dat_lai,null,ldd2013,67,104,True,Điều 125
+h05,holdout,dien_dat_lai,null,ldd2024_cb367,1,47,True,Điều 171
+h06,holdout,dien_dat_lai,null,ldd2013,113,72,True,Điều 203 khoản 1
+h06,holdout,dien_dat_lai,null,ldd2024_cb367,47,63,True,Điều 236
+h07,holdout,dien_dat_lai,null,ldd2013,11,104,True,Điều 26 khoản 5
+h07,holdout,dien_dat_lai,null,ldd2024_cb363,16,104,True,Điều 17 khoản 2
+h08,holdout,truc_tiep,null,ldd2013,50,87,True,Điều 95 khoản 1
+h08,holdout,truc_tiep,null,ldd2024_cb365,39,87,True,Điều 131 khoản 1
+h09,holdout,dieu_kien_ngoai_le,null,ldd2024_cb367,34,139,True,Điều 220 khoản 1
+h10,holdout,dieu_kien_ngoai_le,"{""year"": 2024}",ldd2024_cb363,7,157,True,Điều 4

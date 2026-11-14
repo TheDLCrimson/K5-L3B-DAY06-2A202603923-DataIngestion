@@ -71,3 +71,11 @@ C was chosen by this step; the record is [results/selection.json](../results/sel
 The author wrote the questions, the answers and the gold labels, and searched the corpus for clauses while writing them, so the set leans toward clauses that are easy to find by keyword.
 Paraphrase questions reduce this but do not remove it.
 Twenty questions give coarse metrics: one question is 6.7 points on dev and 20 points on test.
+
+## Holdout set for the optional hybrid extension
+
+The test split was already run once and its failures were read (q12), so it can no longer judge a new method independently.
+[holdout.json](holdout.json) adds 10 new questions (h01-h10), written after the main results and committed before any hybrid run, for the GUIDE's optional hybrid retrieval.
+They use the same fields, 5 carry a `year` filter, and paraphrase questions are included on purpose so the set does not favour keyword search.
+`python -m src.benchmark --holdout` verifies them: 14 of 14 gold quotes are on their pages, the ids are new, and no holdout gold shares an article with a dev question ([holdout_verification.csv](holdout_verification.csv)).
+Hybrid parameters are chosen on dev only; the old test split is reported as already seen, not as an independent check.

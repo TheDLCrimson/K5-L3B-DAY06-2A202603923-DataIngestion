@@ -1,0 +1,130 @@
+[
+  {
+    "id": "h01",
+    "split": "holdout",
+    "type": "truc_tiep",
+    "question": "Theo Luật Đất đai 2013, Chính phủ ban hành khung giá đất theo chu kỳ bao lâu?",
+    "expected_answer": "Định kỳ 05 năm một lần, đối với từng loại đất, theo từng vùng (Điều 113).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 61,
+    "evidence_quote": "Chính phủ ban hành khung giá đất định kỳ 05 năm một lần đối với từng loại đất, theo từng vùng",
+    "alternative_gold": [],
+    "filter": {"year": 2013}
+  },
+  {
+    "id": "h02",
+    "split": "holdout",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Theo Luật Đất đai 2013, khi Nhà nước thu hồi đất mà không có đất để bồi thường thì tiền bồi thường được tính theo giá đất tại thời điểm nào?",
+    "expected_answer": "Theo giá đất cụ thể của loại đất thu hồi do Ủy ban nhân dân cấp tỉnh quyết định tại thời điểm quyết định thu hồi đất (Điều 74 khoản 2).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 41,
+    "evidence_quote": "nếu không có đất để bồi thường thì được bồi thường bằng tiền theo giá đất cụ thể của loại đất thu hồi do Ủy ban nhân dân cấp tỉnh quyết định tại thời điểm quyết định thu hồi đất",
+    "alternative_gold": [],
+    "filter": {"year": 2013}
+  },
+  {
+    "id": "h03",
+    "split": "holdout",
+    "type": "dien_dat_lai",
+    "question": "Nhà nước lấy đất nhà tôi nhưng không còn đất để đền; theo Luật Đất đai 2024 thì số tiền đền bù được tính theo giá đất ở thời điểm nào?",
+    "expected_answer": "Theo giá đất cụ thể của loại đất thu hồi do Ủy ban nhân dân cấp có thẩm quyền quyết định tại thời điểm phê duyệt phương án bồi thường, hỗ trợ, tái định cư (Điều 91 khoản 2).",
+    "gold_source_id": "ldd2024_cb365",
+    "gold_page": 1,
+    "evidence_quote": "trường hợp không có đất để bồi thường thì được bồi thường bằng tiền theo giá đất cụ thể của loại đất thu hồi do Ủy ban nhân dân cấp có thẩm quyền quyết định tại thời điểm phê duyệt phương án bồi thường, hỗ trợ, tái định cư",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "h04",
+    "split": "holdout",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Theo Luật Đất đai 2024, hết thời hạn trưng dụng đất mà mục đích trưng dụng chưa hoàn thành thì xử lý thế nào?",
+    "expected_answer": "Được gia hạn nhưng không quá 30 ngày (Điều 90 khoản 4); thời hạn trưng dụng ban đầu không quá 30 ngày kể từ khi quyết định có hiệu lực.",
+    "gold_source_id": "ldd2024_cb363",
+    "gold_page": 92,
+    "evidence_quote": "Trường hợp hết thời hạn trưng dụng đất mà mục đích của việc trưng dụng chưa hoàn thành thì được gia hạn nhưng không quá 30 ngày",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "h05",
+    "split": "holdout",
+    "type": "dien_dat_lai",
+    "question": "Đất ở thì có bị giới hạn thời gian sử dụng không?",
+    "expected_answer": "Không: đất ở được sử dụng ổn định lâu dài (Luật 2013 Điều 125 khoản 1; Luật 2024 Điều 171 khoản 1).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 67,
+    "evidence_quote": "được sử dụng đất ổn định lâu dài trong các trường hợp sau đây: 1. Đất ở do hộ gia đình, cá nhân sử dụng.",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb367", "page": 1, "evidence_quote": "Điều 171. Đất sử dụng ổn định lâu dài 1. Đất ở."}
+    ],
+    "filter": null
+  },
+  {
+    "id": "h06",
+    "split": "holdout",
+    "type": "dien_dat_lai",
+    "question": "Hai bên tranh chấp đất đều đã có sổ đỏ thì phải mang vụ việc ra cơ quan nào giải quyết?",
+    "expected_answer": "Tòa án (nhân dân) giải quyết tranh chấp đất đai mà các bên có Giấy chứng nhận hoặc giấy tờ hợp lệ, và tranh chấp về tài sản gắn liền với đất (Luật 2013 Điều 203 khoản 1; Luật 2024 Điều 236 khoản 1).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 113,
+    "evidence_quote": "tranh chấp về tài sản gắn liền với đất thì do Tòa án nhân dân giải quyết",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb367", "page": 47, "evidence_quote": "tranh chấp về tài sản gắn liền với đất thì do Tòa án giải quyết"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "h07",
+    "split": "holdout",
+    "type": "dien_dat_lai",
+    "question": "Đất của ông bà tôi đã bị Nhà nước giao cho người khác từ thời trước; bây giờ gia đình có đòi lại được không?",
+    "expected_answer": "Không: Nhà nước không thừa nhận việc đòi lại đất đã được giao theo quy định của Nhà nước cho người khác sử dụng trong quá trình thực hiện chính sách đất đai qua các thời kỳ (Luật 2013 Điều 26 khoản 5; Luật 2024 Điều 17 khoản 2).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 11,
+    "evidence_quote": "Nhà nước không thừa nhận việc đòi lại đất đã được giao theo quy định của Nhà nước cho người khác sử dụng",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb363", "page": 16, "evidence_quote": "Nhà nước không thừa nhận việc đòi lại đất đã được giao theo quy định của Nhà nước cho người khác sử dụng"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "h08",
+    "split": "holdout",
+    "type": "truc_tiep",
+    "question": "Đăng ký đất đai có bắt buộc không, và bắt buộc với ai?",
+    "expected_answer": "Bắt buộc đối với người sử dụng đất và người được giao đất để quản lý (Luật 2013 Điều 95 khoản 1; Luật 2024 Điều 131 khoản 1).",
+    "gold_source_id": "ldd2013",
+    "gold_page": 50,
+    "evidence_quote": "Đăng ký đất đai là bắt buộc đối với người sử dụng đất và người được giao đất để quản lý",
+    "alternative_gold": [
+      {"source_id": "ldd2024_cb365", "page": 39, "evidence_quote": "Đăng ký đất đai là bắt buộc đối với người sử dụng đất và người được giao đất để quản lý"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "h09",
+    "split": "holdout",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Mảnh đất chưa được cấp giấy chứng nhận thì có tách thành hai thửa được không?",
+    "expected_answer": "Không: tách thửa, hợp thửa phải bảo đảm thửa đất đã được cấp một trong các loại giấy chứng nhận, cùng các điều kiện khác (Luật 2024 Điều 220 khoản 1 điểm a).",
+    "gold_source_id": "ldd2024_cb367",
+    "gold_page": 34,
+    "evidence_quote": "Việc tách thửa đất, hợp thửa đất phải bảo đảm các nguyên tắc, điều kiện sau đây: a) Thửa đất đã được cấp một trong các loại giấy chứng nhận",
+    "alternative_gold": [],
+    "filter": null
+  },
+  {
+    "id": "h10",
+    "split": "holdout",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Theo Luật Đất đai 2024, người đang dùng đất ổn định nhưng chưa được cấp sổ thì có được coi là người sử dụng đất không?",
+    "expected_answer": "Có, nếu đang sử dụng đất ổn định và đủ điều kiện cấp Giấy chứng nhận mà chưa được cấp (Điều 4).",
+    "gold_source_id": "ldd2024_cb363",
+    "gold_page": 7,
+    "evidence_quote": "đang sử dụng đất ổn định, đủ điều kiện cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà chưa được Nhà nước cấp Giấy chứng nhận",
+    "alternative_gold": [],
+    "filter": {"year": 2024}
+  }
+]
